@@ -16,41 +16,35 @@ end
 # Create a greeting message using string interpolation
 # Expected: greet("Alice") => "Hello, Alice! Welcome to Ruby."
 def greet(name)
-  # TODO: Use #{} for string interpolation
-  nil
+  return "Hello, #{name}! Welcome to Ruby."
 end
 
 # Exercise 3: String methods
 # Convert a string to uppercase and return its length
 # Expected: process_string("hello") => ["HELLO", 5]
 def process_string(str)
-  # TODO: Use .upcase and .length methods
-  # Return an array [uppercase_string, length]
-  nil
+  return [str.upcase, str.length]
 end
 
 # Exercise 4: String slicing
 # Extract the first 3 characters from a string
 # Expected: first_chars("Ruby") => "Rub"
 def first_chars(str)
-  # TODO: Use string slicing with [start..end] or [start, length]
-  nil
+  return str[0..2]
 end
 
 # Exercise 5: String manipulation
 # Replace all occurrences of 'a' with 'o' in a string
 # Expected: replace_vowel("banana") => "bonono"
 def replace_vowel(str)
-  # TODO: Use .gsub method
-  nil
+  return str.gsub('a', 'o')
 end
 
 # Exercise 6: Check substring
 # Check if a string contains a specific substring (case-insensitive)
 # Expected: contains_word?("I love Ruby", "ruby") => true
 def contains_word?(text, word)
-  # TODO: Use .downcase and .include? methods
-  nil
+  return text.downcase.include?(word)
 end
 
 # ============================================
